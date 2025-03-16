@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    background-color: #ededed  ;
+	width: 100%;
+}
+h1{
+    text-align: center;
+    color: lightseagreen;
+    margin: 10px;
+}
+
+.formInput{
+	width: 100%;
+	display: flex;
+	margin-bottom: .3em;
+
+	.label{
+		width: 25%;
+	}
+}
+
+input[type=text]{
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 8px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.search {
+    position: relative;
+}
+.search span{
+    background: lightseagreen;
+    padding: 20px;
+    display: flex;
+    cursor: pointer;
+
+}
+.search span i{
+    line-height: -100%;
+}
+ul {
+    padding: 2px;
+    list-style: none;
+}
+ul li {
+    background-color: #fff;
+    margin: .4em;
+    padding: 1em;
+    border-left: 4px solid lightseagreen;
+}
+ul li i {
+    padding: 4px;
+    float: right;
+    cursor: pointer;
+}
+p{
+    color: red;
+    text-align: center;
+}
